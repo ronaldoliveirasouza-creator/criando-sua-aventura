@@ -6,86 +6,88 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Procurando a cidade perdida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Missão Espacial</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="cenario-passo0.png" alt="">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1000&q=80" alt="Espaço sideral com estrelas">
+            <p>O ano é 2099. A Terra está ficando inabitável, e você foi escolhido para liderar a missão em busca de um novo lar para a humanidade.</p>
+            <button class="btn-proximo" data-proximo="1">Decolar rumo a Marte</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a lua Titã de Saturno</button>
         </div>
+
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            <img src="https://images.unsplash.com/photo-1614728894747-cbdb7e6c2c3b?auto=format&fit=crop&w=1000&q=80" alt="Superfície de Marte com nave pousada">
+            <p>Você pousa em Marte. As condições são severas, mas há indícios de água congelada sob o solo.</p>
+            <button class="btn-proximo" data-proximo="3">Escavar em busca de gelo</button>
+            <button class="btn-proximo" data-proximo="4">Procurar cavernas para abrigo</button>
         </div>
+
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <img src="https://images.unsplash.com/photo-1634476355086-5adfbd88d7e9?auto=format&fit=crop&w=1000&q=80" alt="Lua Titã com atmosfera alaranjada">
+            <p>Em Titã, a paisagem é coberta por lagos de metano líquido. O ar é espesso e misterioso.</p>
+            <button class="btn-proximo" data-proximo="5">Analisar a composição do ar</button>
+            <button class="btn-proximo" data-proximo="6">Explorar os lagos congelados</button>
         </div>
+
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <img src="https://images.unsplash.com/photo-1634848869244-3c10f3c16f8f?auto=format&fit=crop&w=1000&q=80" alt="Astronauta escavando solo marciano">
+            <p>Você encontra gelo e sinais de vida microbiana! Isso pode significar que Marte já foi habitável.</p>
+            <button class="btn-proximo" data-proximo="7">Montar base e iniciar colônia</button>
         </div>
 
         <div class="passo" id="passo-4">
-            <img src="cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1000&q=80" alt="Caverna em Marte iluminada por luz azul">
+            <p>Dentro das cavernas, você encontra formações brilhantes desconhecidas e um túnel que parece natural demais para ser apenas pedra...</p>
+            <button class="btn-proximo" data-proximo="8">Entrar no túnel misterioso</button>
+            <button class="btn-proximo" data-proximo="9">Voltar à nave</button>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <img src="https://images.unsplash.com/photo-1581092334427-1e7d68a6d2d4?auto=format&fit=crop&w=1000&q=80" alt="Painel de nave analisando atmosfera">
+            <p>Os dados revelam que Titã possui moléculas orgânicas complexas. Um possível ponto de partida para a vida!</p>
+            <button class="btn-proximo" data-proximo="10">Enviar relatório à Terra</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <img src="https://images.unsplash.com/photo-1580422333409-cd2513b7c493?auto=format&fit=crop&w=1000&q=80" alt="Astronauta caminhando em lago congelado de Titã">
+            <p>Explorando os lagos, você descobre uma estrutura metálica submersa — como se fosse uma antiga nave alienígena!</p>
+            <button class="btn-proximo" data-proximo="11">Investigar a nave</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1000&q=80" alt="Colônia em Marte com cúpulas e painéis solares">
+            <p>Você estabelece a primeira colônia marciana. A humanidade tem uma nova casa!</p>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <img src="https://images.unsplash.com/photo-1621524855569-9e6fd4d3b6a5?auto=format&fit=crop&w=1000&q=80" alt="Estrutura alienígena subterrânea com luzes">
+            <p>Dentro do túnel, há uma antiga base alienígena abandonada. Tecnologia desconhecida brilha ao redor...</p>
+            <button class="btn-proximo" data-proximo="12">Ativar o painel de energia</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <img src="https://images.unsplash.com/photo-1633621900558-7c7dd567c90a?auto=format&fit=crop&w=1000&q=80" alt="Nave retornando ao espaço">
+            <p>Você decide que é melhor não arriscar. Retorna à nave e segue para outra missão.</p>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+            <img src="https://images.unsplash.com/photo-1576765607924-6c3d2c1ab4d8?auto=format&fit=crop&w=1000&q=80" alt="Painel transmitindo sinal à Terra">
+            <p>O relatório enviado à Terra inspira novas expedições. Você se torna um herói da exploração espacial.</p>
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
+            <img src="https://images.unsplash.com/photo-1601572582775-3f8ce87a0a74?auto=format&fit=crop&w=1000&q=80" alt="Interior de nave alienígena com luzes azuis">
+            <p>Dentro da nave alienígena, você descobre tecnologia de viagem interestelar. A humanidade poderá explorar além do sistema solar!</p>
         </div>
 
         <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <img src="https://images.unsplash.com/photo-1632042701539-72c9954f2e07?auto=format&fit=crop&w=1000&q=80" alt="Painel alienígena aceso em Marte">
+            <p>Ao ativar o painel, uma mensagem é projetada no ar: “Bem-vindos de volta”. Seriam os humanos os verdadeiros alienígenas?</p>
         </div>
     </main>
     <script src="script.js"></script>
 </body>
 </html>
-
